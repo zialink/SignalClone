@@ -24,10 +24,19 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.ziaman.SignalClone"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "a0b4543a-0343-4321-9c31-168e8d402251"
+      }
+    },
+    "plugins": [
+      "expo-dev-client"
+    ]
   }
 }
