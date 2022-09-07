@@ -14,7 +14,16 @@ const MyStack = () => {
           component={HomeScreen}
           options={{ title: "Signal Clone" }}
         />
-        <Stack.Screen name="ChatRoomScreen" component={ChatRoomScreen} />
+        <Stack.Screen
+          name="ChatRoomScreen"
+          component={ChatRoomScreen}
+          options={{
+            headerStyle: {
+              backgroundColor: "#3777f0",
+            },
+            headerTintColor: "#fff",
+          }}
+        />
       </Stack.Navigator>
     </NavigationContainer>
   );
